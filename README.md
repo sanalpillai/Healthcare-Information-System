@@ -14,13 +14,32 @@ This Java Swing application, created for INFO 5100 – Application Engineering D
 - **Display Patient Report**: Generates a detailed report displaying all the attributes entered, formatted for clarity and ease of understanding.
 
 ## How to Run
-(Insert step-by-step instructions on setting up and running the application in Netbeans IDE here.)
+1. Clone the repository to your local machine.
+2. Open the Netbeans IDE or any other Java IDE that supports Swing applications.
+3. Import the project into your IDE.
+4. Ensure that the Java Development Kit (JDK) is installed on your machine.
+5. Build the project to resolve any dependencies.
+6. Run the application from the main class which contains the main method.
 
 ## Dependencies
-(Provide a list of required libraries or frameworks necessary to run the application.)
+- Java Runtime Environment (JRE) 1.8 or higher.
+- Java Cryptography Architecture (JCA) for implementing secure password hashing.
+- Any additional libraries used should be listed here, along with instructions on how to install or integrate them into the project.
+
+## Security Measures
+- Passwords are hashed using the SHA-256 hashing algorithm provided by the Java Cryptography Architecture.
+- Best practices are followed to ensure that all user data is handled securely.
+- The application includes functionality to prevent the reuse of previously used passwords.
 
 ## Contributions
-(Indicate if contributions are welcome and what type of contributions are sought after.)
+This project is currently not open for contributions. However, feedback on the functionality and security of the application is always welcome.
 
 ## License
-(Include the type of license under which the project is released.)
+This project is released under the MIT License. See the LICENSE file in the repository for full details.
+
+## Acknowledgements
+Special thanks to the instructors and peers at Northeastern University for their guidance and support throughout the development of this project.
+
+---
+
+Developed by: Sanal Pillai

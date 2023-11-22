@@ -1,13 +1,26 @@
-# Healthcare-Information-System
-Healthcare Information System Application Made On Java Swing
-This repository contains the Java Swing application developed for INFO 5100 – Application Engineering Development, as part of the Fall 2023 curriculum. The application is designed to familiarize students with Java classes, object-oriented programming, the Swing framework, and event handling. It also demonstrates how data can be transferred between Java Swing forms and objects.
+# Healthcare Information System
 
-Features:
-Create Person: A GUI feature that allows the input of personal information into a Person object with attributes like name, SSN, website URL, email, picture, etc.
-Create Address: Inputs location information into an Address object, including GPS coordinates, city, state, and country.
-Create Driver: Collects and stores driver information into a Driver object, including the driver's license details.
-Create Vehicle Registration: Gathers vehicle information such as model and serial number and stores it in a Vehicle Registration object.
-Create Patient: Inputs patient information like patient ID, primary doctor, visitation dates, allergies, medication status, insurance coverage, and stores it in a Patient object.
-Create Doctor: Stores professional details of a doctor, such as name, office address, doctor ID, and specialty into a Doctor object.
-Create Insurance Coverage: Captures and stores insurance-related details into an Insurance object, including corporate ID, address, premium, deductible, and benefits.
-Display Patient Report: A feature to generate and display a comprehensive report of all the attributes created, presented in an easy-to-read format.
+## Description
+This Java Swing application, created for INFO 5100 – Application Engineering Development (Fall 2023), is crafted to introduce students to the foundational concepts of Java classes, object-oriented programming, the Swing framework, and event handling. It showcases the transfer of data between Java Swing forms and objects, focusing on a healthcare information management context.
+
+## Features
+- **Create Person**: Implements a GUI to input personal details into a `Person` object with attributes such as name, SSN, website URL, email, picture, and more.
+- **Create Address**: Facilitates the input of location details into an `Address` object, including GPS coordinates, city, state, and country.
+- **Create Driver**: Captures driver's license information and stores it in a `Driver` object.
+- **Create Vehicle Registration**: Records vehicle details like model and serial number into a `Vehicle Registration` object.
+- **Create Patient**: Allows for the entry of patient information including patient ID, primary doctor, visit dates, allergies, medication status, and insurance coverage into a `Patient` object.
+- **Create Doctor**: Saves a doctor's professional information in a `Doctor` object, detailing name, office address, doctor ID, specialty, and more.
+- **Create Insurance Coverage**: Gathers insurance details and records them in an `Insurance` object, including corporate ID, address, premium, deductible, and a statement of benefits.
+- **Display Patient Report**: Generates a detailed report displaying all the attributes entered, formatted for clarity and ease of understanding.
+
+## How to Run
+(Insert step-by-step instructions on setting up and running the application in Netbeans IDE here.)
+
+## Dependencies
+(Provide a list of required libraries or frameworks necessary to run the application.)
+
+## Contributions
+(Indicate if contributions are welcome and what type of contributions are sought after.)
+
+## License
+(Include the type of license under which the project is released.)

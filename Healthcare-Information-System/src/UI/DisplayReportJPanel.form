@@ -1,0 +1,902 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel1" min="-2" pref="1129" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblTitleAddress" max="32767" attributes="0"/>
+                              <EmptySpace min="-2" pref="88" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="lblTitlePerson" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="143" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="lblState" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblCity" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblCountry" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblGPS" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="txtCity" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                                          <Component id="txtState" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                                          <Component id="txtCountry" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                                          <Component id="txtGPS" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="80" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="lblLastName" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblFirstName" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblSSN" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblEmail" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblDOB" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblPhone" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblPermAddress" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblTempAddress" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblOccupation" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblNationality" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="txtFirstName" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                                          <Component id="txtLastName" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                                          <Component id="txtSSN" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                                          <Component id="txtEmail" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                                          <Component id="txtDOB" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                                          <Component id="txtPhone" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                                          <Component id="txtPermAddress" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                                          <Component id="txtTempAddress" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                                          <Component id="txtOccupation" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                                          <Component id="txtNationality" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="123" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="lblInsuranceAddress" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblCorporateID" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblPremium" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblDeductible" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblBenefits" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="txtCorporateID" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                                  <Component id="txtInsuranceAddress" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                                  <Component id="txtPremium" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                                  <Component id="txtDeductible" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                                  <Component id="txtBenefits" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              <Component id="lblTitleVehicleRegistration" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblTitlePatient" alignment="1" min="-2" pref="387" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="lblPrimaryDoctor" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblPatientID" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblLastVisit" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblNextAppointment" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblAllergies" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="txtPatientID" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="txtPrimaryDoctor" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="txtLastVisit" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="txtNextAppointment" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="comboAllergies" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="lblInsuranceCoverage" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblOnMedication" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="comboOnMedication" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                                          <Component id="comboInsuranceCoverage" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                              <Component id="lblUploadImage" min="-2" pref="363" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jSeparator2" min="-2" pref="10" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="lblSerialNumber" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblModel" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblLicenseNumber" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblExpirationDate" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="txtModel" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                                          <Component id="txtSerialNumber" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                                          <Component id="txtLicenseNumber" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                                          <Component id="txtExpirationDate" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="171" max="-2" attributes="0"/>
+                                      <Component id="jSeparator1" min="-2" pref="1024" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="lblTitleVehicleRegistration1" min="-2" pref="531" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="1046" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                                              <Component id="lblDriverLicense" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="txtDriverLicense" min="-2" pref="200" max="-2" attributes="0"/>
+                                              <EmptySpace min="192" pref="192" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="lblTitleDriver" alignment="1" min="-2" pref="531" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblTitlePerson2" alignment="0" min="-2" pref="548" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="lblLastNameDoctor" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblFirstNameDoctor" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblSpecialization" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblEducation" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblMedicalLicense" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblDoctorContact" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblPracticeAddress" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblYears" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="txtEducation" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                                          <Component id="txtMedicalLicense" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                                          <Component id="txtDoctorContact" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                                          <Component id="txtPracticeAddress" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                                          <Component id="txtYears" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                                          <Component id="txtFirstNameDoctor" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                                          <Component id="txtLastNameDoctor" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                                          <Component id="txtSpecialization" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="lblTitlePerson2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblFirstNameDoctor" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtFirstNameDoctor" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblLastNameDoctor" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtLastNameDoctor" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblSpecialization" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtSpecialization" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblEducation" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtEducation" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblMedicalLicense" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtMedicalLicense" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblDoctorContact" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtDoctorContact" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblPracticeAddress" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtPracticeAddress" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblYears" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtYears" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jSeparator2" min="-2" pref="216" max="-2" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="lblTitleDriver" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lblDriverLicense" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtDriverLicense" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="lblTitleVehicleRegistration1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblModel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtModel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblSerialNumber" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtSerialNumber" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblLicenseNumber" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtLicenseNumber" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblExpirationDate" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtExpirationDate" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="lblUploadImage" min="-2" pref="116" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                      <Component id="lblTitlePatient" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtPatientID" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblPatientID" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtPrimaryDoctor" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblPrimaryDoctor" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtLastVisit" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblLastVisit" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtNextAppointment" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblNextAppointment" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblAllergies" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="comboAllergies" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lblOnMedication" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="lblInsuranceCoverage" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="comboOnMedication" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="comboInsuranceCoverage" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lblTitleVehicleRegistration" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblCorporateID" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtCorporateID" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblInsuranceAddress" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtInsuranceAddress" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblPremium" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtPremium" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="lblTitlePerson" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblFirstName" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtFirstName" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblLastName" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtLastName" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblSSN" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtSSN" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblEmail" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtEmail" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblDOB" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtDOB" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblPhone" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtPhone" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblPermAddress" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtPermAddress" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblTempAddress" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtTempAddress" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblOccupation" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtOccupation" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblNationality" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtNationality" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="lblTitleAddress" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblCity" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtCity" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblState" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtState" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblCountry" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtCountry" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblGPS" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtGPS" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblDeductible" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtDeductible" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblBenefits" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtBenefits" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jSeparator1" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace pref="1586" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="24" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="REPORT"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTitlePerson">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Personal Information"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblFirstName">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+        <Property name="text" type="java.lang.String" value="First Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblLastName">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+        <Property name="text" type="java.lang.String" value="Last Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSSN">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+        <Property name="text" type="java.lang.String" value="SSN:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblEmail">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+        <Property name="text" type="java.lang.String" value="Email:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDOB">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+        <Property name="text" type="java.lang.String" value="DOB:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPhone">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+        <Property name="text" type="java.lang.String" value="Phone:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPermAddress">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+        <Property name="text" type="java.lang.String" value="Permanent Address:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTempAddress">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+        <Property name="text" type="java.lang.String" value="Temporary Address:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblOccupation">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+        <Property name="text" type="java.lang.String" value="Occupation:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblNationality">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+        <Property name="text" type="java.lang.String" value="Nationality:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtFirstName">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtLastName">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtSSN">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtEmail">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtDOB">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtPhone">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtPermAddress">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtTempAddress">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtOccupation">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtNationality">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblNextAppointment">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+        <Property name="text" type="java.lang.String" value="Next Appointment:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblAllergies">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+        <Property name="text" type="java.lang.String" value="Allergies?"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblOnMedication">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+        <Property name="text" type="java.lang.String" value="On Medication?"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblInsuranceCoverage">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+        <Property name="text" type="java.lang.String" value="Insurance Coverage:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtPatientID">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtPrimaryDoctor">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtLastVisit">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTitlePatient">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Medical Information"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtNextAppointment">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPatientID">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+        <Property name="text" type="java.lang.String" value="Patient ID:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPrimaryDoctor">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+        <Property name="text" type="java.lang.String" value="Primary Doctor:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblLastVisit">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+        <Property name="text" type="java.lang.String" value="Last Visit:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCountry">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+        <Property name="text" type="java.lang.String" value="Country:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblGPS">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+        <Property name="text" type="java.lang.String" value="GPS:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCity">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtState">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCountry">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtGPS">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTitleAddress">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Address Information"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCity">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+        <Property name="text" type="java.lang.String" value="City:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblState">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+        <Property name="text" type="java.lang.String" value="State:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDeductible">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+        <Property name="text" type="java.lang.String" value="Deductible:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCorporateID">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtInsuranceAddress">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtPremium">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtDeductible">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblBenefits">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+        <Property name="text" type="java.lang.String" value="Benefits:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTitleVehicleRegistration">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Insurance Information"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtBenefits">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCorporateID">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+        <Property name="text" type="java.lang.String" value="Corporate ID:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblInsuranceAddress">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+        <Property name="text" type="java.lang.String" value="Address:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPremium">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+        <Property name="text" type="java.lang.String" value="Premium:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator1">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTitlePerson2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Doctor Information"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPracticeAddress">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+        <Property name="text" type="java.lang.String" value="Practice Address:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblYears">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+        <Property name="text" type="java.lang.String" value="Years Of Practice:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtFirstNameDoctor">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtLastNameDoctor">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtSpecialization">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblFirstNameDoctor">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+        <Property name="text" type="java.lang.String" value="First Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtEducation">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblLastNameDoctor">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+        <Property name="text" type="java.lang.String" value="Last Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMedicalLicense">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSpecialization">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+        <Property name="text" type="java.lang.String" value="Specialization:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtDoctorContact">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblEducation">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+        <Property name="text" type="java.lang.String" value="Education:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtPracticeAddress">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMedicalLicense">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+        <Property name="text" type="java.lang.String" value="Medical License:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtYears">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDoctorContact">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+        <Property name="text" type="java.lang.String" value="Doctor Contact:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator2">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTitleDriver">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Driver"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDriverLicense">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+        <Property name="text" type="java.lang.String" value="Driver License:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtDriverLicense">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTitleVehicleRegistration1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Vehicle Registration"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblModel">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+        <Property name="text" type="java.lang.String" value="Model:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtModel">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSerialNumber">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+        <Property name="text" type="java.lang.String" value="Serial Number:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtSerialNumber">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblLicenseNumber">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+        <Property name="text" type="java.lang.String" value="License Number:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtLicenseNumber">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblExpirationDate">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+        <Property name="text" type="java.lang.String" value="Expiration Date:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtExpirationDate">
+    </Component>
+    <Component class="javax.swing.JComboBox" name="comboAllergies">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new javax.swing.DefaultComboBoxModel&lt;&gt;(new String[] { &quot;Yes&quot;, &quot;No&quot;})" type="code"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="comboAllergiesActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="comboOnMedication">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new javax.swing.DefaultComboBoxModel&lt;&gt;(new String[] { &quot;Yes&quot;, &quot;No&quot;})" type="code"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="comboOnMedicationActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="comboInsuranceCoverage">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new javax.swing.DefaultComboBoxModel&lt;&gt;(new String[] { &quot;Yes&quot;, &quot;No&quot;})" type="code"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="comboInsuranceCoverageActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblUploadImage">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="2"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Upload An Image"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+            <BevelBorder/>
+          </Border>
+        </Property>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
